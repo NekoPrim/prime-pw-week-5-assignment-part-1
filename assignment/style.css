@@ -1,0 +1,41 @@
+@import url(https://db.onlinewebfonts.com/c/b6928a6e6649d13523335340e6fe33ec?family=Score+Board);
+@font-face {font-family: "Score Board"; src: url("https://db.onlinewebfonts.com/t/b6928a6e6649d13523335340e6fe33ec.eot"); src: url("https://db.onlinewebfonts.com/t/b6928a6e6649d13523335340e6fe33ec.eot?#iefix") format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/b6928a6e6649d13523335340e6fe33ec.woff2") format("woff2"), url("https://db.onlinewebfonts.com/t/b6928a6e6649d13523335340e6fe33ec.woff") format("woff"), url("https://db.onlinewebfonts.com/t/b6928a6e6649d13523335340e6fe33ec.ttf") format("truetype"), url("https://db.onlinewebfonts.com/t/b6928a6e6649d13523335340e6fe33ec.svg#Score Board") format("svg"); }
+
+
+body {
+    background-color: darkgreen;
+    border: 5px dashed linen;
+    height: 100%;
+}
+
+header {
+    background-color: black;
+    border: 5px solid linen;
+    color: linen;
+    font-family: "Score Board";
+    font-size: 9rem;
+    height: 10rem;
+    margin-right: 20rem;
+    margin-left: 20rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.console {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.hoop {
+    left: 50%;
+    margin: 0;
+    position: relative;
+    top: 50%;
+    transform: translateX(-50%);
+}
+
+.cheer {
+    bottom: 1rem;
+    position: fixed;
+    right: 1rem;
+}
