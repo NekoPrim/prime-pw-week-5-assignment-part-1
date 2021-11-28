@@ -39,3 +39,45 @@ header {
     position: fixed;
     right: 1rem;
 }
+
+.basketball {
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-name: ball;
+    position: fixed;
+    z-index: 100;
+    width: 15%;
+}
+
+@keyframes ball {
+    0%, 100% {left:-20rem; bottom: 0rem;}
+    5% {left: 15rem; bottom: 3rem;}
+    10% {left: -20rem; bottom: 5rem;}
+    35% {left: -20rem; bottom: 0rem;}
+    40% {left: 30rem; bottom: 10rem;}
+    46% {left: -20rem; bottom: 35rem;}
+    60% {left: -20rem; bottom: 0rem;}
+    66% {left: 28rem; bottom: 15rem;}
+    72% {left: -20rem; bottom: 40rem;}
+}
+
+.hand {
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-name: defense;
+    position: fixed;
+    width: 25%;
+    z-index: 10;
+}
+
+@keyframes defense {
+    0%, 100% {left: 10rem; bottom: -20rem}
+    10% {left: 10rem; bottom: -2rem;}
+    30% {left: 10rem; bottom: -20rem;}
+    50% {left: 17rem; bottom: -20rem;}
+    54% {left: 17rem; bottom: -2rem;}
+    60% {left: 17rem; bottom: -20rem;}
+    70% {left: 5rem; bottom: -20rem;}
+    74% {left: 5rem; bottom: -2rem;}
+    80% {left: rem; bottom: -20rem;}
+}
