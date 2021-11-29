@@ -9,15 +9,16 @@ console.log('***** Object Practice *****')
   - Also give it an array 'favThreeFoods'
 */
 
-const me = {
-  firstName: 'Desiree',
-  lastName: 'Quade',
-  hasSiblings: true,
-  shoeCount: 10,
-  favThreeFoods: ['raspberries', 'cheesecake', 'pizza']
-
   // TODO - add properties here
-};
+
+  const me = {
+    firstName: 'Desiree',
+    lastName: 'Quade',
+    hasSiblings: true,
+    shoeCount: 10,
+    favThreeFoods: ['raspberries', 'cheesecake', 'pizza']
+  };
+
 console.log('A little about me:', me);
 
 /* 2. Accessing object properties.
